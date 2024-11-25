@@ -26,19 +26,19 @@ A Python script that monitors system resources (CPU, RAM, and Disk usage) and se
 ### 3. Activate the virtual environment
 
 ### 4. Clone the repository:
-```bash
+- ```bash
 git clone https://github.com/MichaelOppong731/System_monitoring.git
 cd System_monitoring
 
 ### 5. Install required packages:
-```bash
+-```bash
 pip install mailjet_rest psutil
 
 ### 6. Set environment variables:
- ```bash
+- ```bash
 export MAILJET_API_KEY='your_api_key'
 export MAILJET_API_SECRET='your_api_secret'
 
 ### 7. Run the script:
-```bash
+- ```bash
 python monitor.py
